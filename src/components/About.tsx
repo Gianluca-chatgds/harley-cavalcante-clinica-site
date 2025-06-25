@@ -1,7 +1,5 @@
-
 const About = () => {
-  return (
-    <section id="sobre" className="py-16 bg-stone-50">
+  return <section id="sobre" className="py-16 bg-stone-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -34,7 +32,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
-                  <span className="text-amber-800">Especialista em Cirurgia Pós Grande Emagrecimento</span>
+                  <span className="text-amber-800">Cirurgia Pós Grande Emagrecimento</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
@@ -49,18 +47,12 @@ const About = () => {
 
             <div className="flex justify-center">
               <div className="w-64 h-64 bg-amber-100 rounded-lg overflow-hidden shadow-lg">
-                <img 
-                  src="/lovable-uploads/e7a793f3-df70-431f-ab64-d6425a748e6a.png" 
-                  alt="Logo Dr. Harley Cavalcante" 
-                  className="w-full h-full object-contain p-8"
-                />
+                <img src="/lovable-uploads/e7a793f3-df70-431f-ab64-d6425a748e6a.png" alt="Logo Dr. Harley Cavalcante" className="w-full h-full object-contain p-8" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
