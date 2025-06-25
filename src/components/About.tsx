@@ -1,7 +1,5 @@
-
 const About = () => {
-  return (
-    <section id="sobre" className="py-16 bg-white">
+  return <section id="sobre" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -43,24 +41,10 @@ const About = () => {
               </div>
             </div>
 
-            <div className="bg-blue-50 p-8 rounded-2xl">
-              <h4 className="text-xl font-semibold text-gray-800 mb-4">
-                Especialidades
-              </h4>
-              <ul className="space-y-3 text-gray-600">
-                <li>• 🔸 Cirurgia Plástica Estética</li>
-                <li>• 🔸 Cirurgia Plástica Reparadora</li>
-                <li>• 💠 Cirurgia Plástica Pós Grande Emagrecimento</li>
-                <li>• 🎓 Nutrologia</li>
-                <li>• Consultas e Avaliações</li>
-                <li>• Acompanhamento Pós-Operatório</li>
-              </ul>
-            </div>
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
