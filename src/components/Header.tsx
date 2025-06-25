@@ -15,7 +15,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-800">Dr. Harley Cavalcante</h1>
-              <p className="text-sm text-gray-600">Clínica Médica</p>
+              <p className="text-sm text-gray-600">Cirurgião Plástico</p>
             </div>
           </div>
           

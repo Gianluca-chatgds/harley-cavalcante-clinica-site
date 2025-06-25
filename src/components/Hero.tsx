@@ -8,8 +8,16 @@ const Hero = () => {
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
               Dr. Harley Cavalcante
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
-              Médico especializado em proporcionar cuidados médicos de excelência com atenção personalizada e humanizada para cada paciente.
+            <p className="text-xl text-blue-600 font-semibold mb-4">
+              🔸 CIRURGIÃO PLÁSTICO 🇧🇷🇺🇸
+            </p>
+            <p className="text-lg text-gray-600 mb-6">
+              CREMEC 6229 - RQE 2904<br />
+              🎓 Pós-graduação em Nutrologia (ABRAN)<br />
+              💠 Cirurgia Plástica Pós Grande Emagrecimento
+            </p>
+            <p className="text-lg text-gray-600 mb-8">
+              Especialista em cirurgia plástica com atenção personalizada e humanizada para cada paciente, oferecendo os mais modernos procedimentos estéticos e reparadores.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 

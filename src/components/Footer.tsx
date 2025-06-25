@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
@@ -11,11 +10,12 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold">Dr. Harley Cavalcante</h3>
-                <p className="text-gray-400 text-sm">Clínica Médica</p>
+                <p className="text-gray-400 text-sm">Cirurgião Plástico</p>
+                <p className="text-gray-400 text-xs">CREMEC 6229 - RQE 2904</p>
               </div>
             </div>
             <p className="text-gray-400">
-              Cuidando da sua saúde com dedicação e profissionalismo.
+              Cirurgia plástica com segurança, dedicação e profissionalismo.
             </p>
           </div>
 
