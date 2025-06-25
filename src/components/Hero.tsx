@@ -9,13 +9,13 @@ const Hero = () => {
               Dr. Harley Cavalcante
             </h1>
             <p className="text-xl text-blue-600 font-semibold mb-4">
-              🔸 CIRURGIÃO PLÁSTICO 🇧🇷🇺🇸
+              Cirurgião Plástico
             </p>
-            <p className="text-lg text-gray-600 mb-6">
-              CREMEC 6229 - RQE 2904<br />
-              🎓 Pós-graduação em Nutrologia (ABRAN)<br />
-              💠 Cirurgia Plástica Pós Grande Emagrecimento
-            </p>
+            <div className="text-lg text-gray-600 mb-6 space-y-2">
+              <p><strong>CREMEC 6229 - RQE 2904</strong></p>
+              <p>Pós-graduação em Nutrologia (ABRAN)</p>
+              <p>Especialista em Cirurgia Plástica Pós Grande Emagrecimento</p>
+            </div>
             <p className="text-lg text-gray-600 mb-8">
               Especialista em cirurgia plástica com atenção personalizada e humanizada para cada paciente, oferecendo os mais modernos procedimentos estéticos e reparadores.
             </p>
