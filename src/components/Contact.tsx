@@ -81,10 +81,12 @@ const Contact = () => {
               
               <div className="space-y-4">
                 <a 
-                  href="tel:558581903334"
-                  className="block w-full bg-blue-600 text-white text-center py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                  href="https://wa.me/558581903334"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full bg-green-600 text-white text-center py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors"
                 >
-                  Ligar Agora
+                  Conversar via WhatsApp
                 </a>
                 
                 <div className="text-center">
