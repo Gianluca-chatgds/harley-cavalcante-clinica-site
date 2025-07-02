@@ -1,3 +1,4 @@
+
 const Hero = () => {
   return <section id="inicio" className="pt-20 pb-16 bg-gradient-to-br from-amber-50 to-stone-50">
       <div className="container mx-auto px-4">
@@ -30,7 +31,12 @@ const Hero = () => {
           <div className="lg:w-1/2">
             <div className="relative">
               <div className="w-80 h-80 mx-auto bg-amber-100 rounded-full overflow-hidden shadow-2xl">
-                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face" alt="Dr. Harley Cavalcante" className="w-full h-full object-cover" />
+                <img 
+                  src="/lovable-uploads/e11f9ee5-2f5d-4664-a123-bc5f74e0f99d.png" 
+                  alt="Dr. Harley Cavalcante" 
+                  className="w-full h-full object-cover object-center scale-110"
+                  style={{ objectPosition: "center 20%" }}
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-amber-600 rounded-full flex items-center justify-center shadow-lg">
                 <span className="text-white text-2xl">👨‍⚕️</span>
