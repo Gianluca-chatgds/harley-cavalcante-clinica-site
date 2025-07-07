@@ -1,6 +1,7 @@
 
 const Hero = () => {
-  return <section id="inicio" className="pt-20 pb-16 bg-gradient-to-br from-amber-50 to-stone-50">
+  return (
+    <section id="inicio" className="pt-20 pb-16 bg-gradient-to-br from-amber-50 to-stone-50">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2">
@@ -22,8 +23,8 @@ const Hero = () => {
               <a href="#contato" className="bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors text-center">
                 Agendar Consulta
               </a>
-              <a href="tel:558581903334" className="border-2 border-amber-600 text-amber-600 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors text-center">
-                (85) 8190-3334
+              <a href="tel:5585981903334" className="border-2 border-amber-600 text-amber-600 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors text-center">
+                (85) 98190-3334
               </a>
             </div>
           </div>
@@ -45,6 +46,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;

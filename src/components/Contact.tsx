@@ -1,6 +1,9 @@
+
 import { MapPin, Phone, Clock } from "lucide-react";
+
 const Contact = () => {
-  return <section id="contato" className="py-16 bg-gray-50">
+  return (
+    <section id="contato" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
@@ -35,8 +38,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-800 mb-2">Telefone</h3>
-                    <a href="tel:558581903334" className="text-blue-600 hover:text-blue-700 font-medium">
-                      (85) 8190-3334
+                    <a href="tel:5585981903334" className="text-blue-600 hover:text-blue-700 font-medium">
+                      (85) 98190-3334
                     </a>
                   </div>
                 </div>
@@ -61,7 +64,7 @@ const Contact = () => {
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">Informações da Clínica</h3>
                 <div className="space-y-2 text-gray-600">
-                  <p><strong>CNPJ:</strong> A ser atualizado</p>
+                  <p><strong>CNPJ:</strong> 35.238.529/0001-22</p>
                   <p><strong>Responsável Técnico:</strong> Dr. Harley Cavalcante</p>
                 </div>
               </div>
@@ -74,8 +77,8 @@ const Contact = () => {
               </p>
               
               <div className="space-y-4">
-                <a href="tel:558581903334" className="block w-full bg-blue-600 text-white text-center py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                  Ligar Agora
+                <a href="https://wa.me/5585981903334" target="_blank" rel="noopener noreferrer" className="block w-full bg-green-600 text-white text-center py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+                  Entrar em Contato
                 </a>
                 
                 <div className="text-center">
@@ -94,6 +97,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Contact;

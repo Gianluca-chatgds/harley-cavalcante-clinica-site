@@ -27,7 +27,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <div className="space-y-2 text-amber-200">
-              <p>📞 (85) 8190-3334</p>
+              <p>📞 (85) 98190-3334</p>
               <p>📍 Av. Dom Luís, 1233 - Salas 1705/1706</p>
               <p>Aldeota, Fortaleza - CE</p>
               <p>CEP: 60160-230</p>
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="border-t border-amber-700 mt-8 pt-8 text-center text-amber-200">
           <p>&copy; 2024 Dr. Harley Cavalcante - Todos os direitos reservados.</p>
-          <p className="mt-2 text-sm">CNPJ: A ser atualizado</p>
+          <p className="mt-2 text-sm">CNPJ: 35.238.529/0001-22</p>
         </div>
       </div>
     </footer>
