@@ -1,4 +1,3 @@
-
 import { MapPin, Phone, Clock } from "lucide-react";
 
 const Contact = () => {
@@ -24,7 +23,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-800 mb-2">Endereço</h3>
                     <p className="text-gray-600">
                       Av. Dom Luís, 1233 - Salas 1705/1706<br />
-                      Aldeota, Fortaleza - CE<br />
+                      Meireles, Fortaleza - CE<br />
                       CEP: 60160-230
                     </p>
                   </div>

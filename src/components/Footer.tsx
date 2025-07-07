@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="space-y-2 text-amber-200">
               <p>📞 (85) 98190-3334</p>
               <p>📍 Av. Dom Luís, 1233 - Salas 1705/1706</p>
-              <p>Aldeota, Fortaleza - CE</p>
+              <p>Meireles, Fortaleza - CE</p>
               <p>CEP: 60160-230</p>
             </div>
           </div>
