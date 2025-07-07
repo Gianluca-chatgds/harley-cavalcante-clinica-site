@@ -14,9 +14,7 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-amber-900 mb-6">
                 Experiência e Qualificação
               </h3>
-              <p className="text-stone-700 mb-6 leading-relaxed">
-                O Dr. Harley Cavalcante é um cirurgião plástico qualificado (CREMEC 6229 - RQE 2904) com formação nacional e internacional, especializado em procedimentos estéticos e reparadores.
-              </p>
+              <p className="text-stone-700 mb-6 leading-relaxed">O Dr. Harley Cavalcante é um cirurgião plástico qualificado (CREMEC 6229 - RQE 2904), especializado em procedimentos estéticos e reparadores.</p>
               <p className="text-stone-700 mb-6 leading-relaxed">
                 Com pós-graduação em Nutrologia pela ABRAN, oferece um cuidado integral que vai além da cirurgia, considerando aspectos nutricionais e de bem-estar do paciente, especialmente em cirurgias plásticas pós grande emagrecimento.
               </p>
